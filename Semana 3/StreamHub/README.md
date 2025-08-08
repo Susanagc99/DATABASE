@@ -18,9 +18,9 @@ La base de datos `streamhub` contiene:
 ![find2](https://github.com/user-attachments/assets/abee44a0-fd81-458a-8d79-25ccf63797d8)  
 
 
-- Actualizaciones (`updateOne`, `updateMany`) y eliminaciones (`deleteOne`, `deleteMany`).
-![Actualización updateOne()](capturas/updateR1.jpg)
-![Actualización deleteOne()](capturas/deleteL2.jpg)
+- Actualizaciones (`updateOne`, `updateMany`) y eliminaciones (`deleteOne`, `deleteMany`).  
+![Actualización updateOne()](capturas/updateR1.jpg)  
+![Actualización deleteOne()](capturas/deleteL2.jpg)  
 
 - Creación de índices para búsquedas rápidas.
 ![Creación de índices](capturas/indices.jpg)
