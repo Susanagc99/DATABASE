@@ -12,23 +12,24 @@ La base de datos `streamhub` contiene:
 
 ## ⚙️ Funcionalidades
 - Inserción y consulta de documentos.
+
 - Filtros con operadores (`$gt`, `$lt`, `$regex`, etc.).
 
-![Consulta find()](capturas/find1.jpg) 
+![Consulta find()](capturas/find1.jpg)  
 ![Consulta find()](capturas/find2.jpg)
 
 
 - Actualizaciones (`updateOne`, `updateMany`) y eliminaciones (`deleteOne`, `deleteMany`).
--  
+  
 ![Actualización updateOne()](capturas/updateR1.jpg)
 ![Actualización deleteOne()](capturas/deleteL2.jpg)  
 
 - Creación de índices para búsquedas rápidas.
-- 
+ 
 ![Creación de índices](capturas/indices.jpg)
 
 - Agregaciones para generar métricas (promedios, conteos, géneros más populares).
-- 
+ 
 ![Agregación con $group](capturas/aggPromedio.jpg)
 
 ## 🚀 Ejecución
