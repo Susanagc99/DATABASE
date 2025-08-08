@@ -1,0 +1,40 @@
+[
+  {
+    "_id": "movie1",
+    "tipo": "pelicula",
+    "titulo": "El Viaje",
+    "duracion": 130,
+    "anio": 2021,
+    "generos": ["Drama", "Aventura"],
+    "reparto": ["Ana López", "Carlos Ruiz"],
+    "createdAt": { "$date": "2025-04-20T10:00:00Z" }
+  },
+  {
+    "_id": "movie2",
+    "tipo": "pelicula",
+    "titulo": "Risas y Café",
+    "duracion": 95,
+    "anio": 2023,
+    "generos": ["Comedia", "Romance"],
+    "reparto": ["Actor X", "Actriz Y"],
+    "createdAt": { "$date": "2025-03-15T09:00:00Z" }
+  },
+  {
+    "_id": "serie1",
+    "tipo": "serie",
+    "titulo": "Misterios de la Ciudad",
+    "anio": 2019,
+    "generos": ["Misterio", "Thriller"],
+    "reparto": ["Actor A", "Actriz B"],
+    "temporadas": [
+      {
+        "numero": 1,
+        "episodios": [
+          { "episodeId": "s1e1", "numero": 1, "titulo": "Noche fría", "duracion": 42 },
+          { "episodeId": "s1e2", "numero": 2, "titulo": "Huella", "duracion": 45 }
+        ]
+      }
+    ],
+    "createdAt": { "$date": "2025-02-10T08:00:00Z" }
+  }
+]

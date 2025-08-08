@@ -1,0 +1,41 @@
+[
+  {
+    "_id": "user1",
+    "nombre": "Ana Pérez",
+    "email": "ana@email.com",
+    "pais": "Colombia",
+    "generos_preferidos": ["Drama", "Aventura"],
+    "historial": [
+      {
+        "contentId": "movie1",
+        "vistoEn": { "$date": "2025-07-01T10:00:00Z" },
+        "progreso": 95
+      }
+    ],
+    "createdAt": { "$date": "2025-06-30T08:30:00Z" }
+  },
+  {
+    "_id": "user2",
+    "nombre": "Juan Gómez",
+    "email": "juan@email.com",
+    "pais": "México",
+    "generos_preferidos": ["Comedia", "Romance"],
+    "historial": [],
+    "createdAt": { "$date": "2025-05-12T11:00:00Z" }
+  },
+  {
+    "_id": "user3",
+    "nombre": "Luisa Martínez",
+    "email": "luisa@email.com",
+    "pais": "Colombia",
+    "generos_preferidos": ["Thriller", "Misterio"],
+    "historial": [
+      {
+        "contentId": "serie1",
+        "vistoEn": { "$date": "2025-07-02T20:00:00Z" },
+        "progreso": 40
+      }
+    ],
+    "createdAt": { "$date": "2025-07-01T14:15:00Z" }
+  }
+]

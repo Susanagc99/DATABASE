@@ -1,0 +1,16 @@
+[
+  {
+    "_id": "l1",
+    "ownerId": "user1",
+    "nombre": "Favoritas",
+    "createdAt": { "$date": "2025-07-07T09:00:00Z" },
+    "items": ["movie1", "serie1"]
+  },
+  {
+    "_id": "l2",
+    "ownerId": "user2",
+    "nombre": "Para ver este fin",
+    "createdAt": { "$date": "2025-07-08T12:00:00Z" },
+    "items": ["movie2"]
+  }
+]
