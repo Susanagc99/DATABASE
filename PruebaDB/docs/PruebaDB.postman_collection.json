@@ -1,0 +1,43 @@
+{
+	"info": {
+		"_postman_id": "4b4030f1-f324-4e80-98af-9e85de14840e",
+		"name": "PruebaDB",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json",
+		"_exporter_id": "46359748"
+	},
+	"item": [
+		{
+			"name": "All transactions",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": "http://localhost:3000/transactions"
+			},
+			"response": []
+		},
+		{
+			"name": "transactionbyIDcustomer",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "posttrans",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "del byID",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		}
+	]
+}
