@@ -1,9 +1,3 @@
-### 🗄️ Database Structure
-
-- **`customers`** - Customer information and registration
-- **`transactions`** - 
-- **`bills`** - 
-
 #### 1. Install Dependencies
 ```bash
 npm install
@@ -43,3 +37,4 @@ node server/index.js
 
 # Test endpoints with Postman
 http://localhost:3000/<endpoint>
+
